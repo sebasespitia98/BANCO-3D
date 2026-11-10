@@ -1,0 +1,27 @@
+BANCO 3D · app para iPad (PWA)
+
+Contenido
+  index.html             la app completa
+  manifest.webmanifest   nombre e iconos para instalarla
+  sw.js                  permite usarla sin internet
+  *.png                  iconos
+
+Publicar gratis en GitHub Pages
+  1. Entra en github.com con tu cuenta y pulsa New repository.
+     Nombre: banco3d · visibilidad: Public · Create repository.
+  2. Pulsa "uploading an existing file" y arrastra TODOS estos archivos
+     (no la carpeta, su contenido). Pulsa Commit changes.
+  3. Settings > Pages > Source: Deploy from a branch · Branch: main · / (root) · Save.
+  4. En 1–2 minutos la app queda en:  https://TU-USUARIO.github.io/banco3d/
+
+Instalar en el iPad
+  1. Abre esa dirección en Safari.
+  2. Compartir (cuadrado con flecha) > Añadir a pantalla de inicio > Añadir.
+  3. Ábrela desde el icono: pantalla completa y funciona sin internet.
+
+Publicar una versión nueva
+  Sube el index.html nuevo y en sw.js cambia el texto de VERSION
+  (por ejemplo ...-1 por ...-2). El iPad la descarga al abrirla con internet.
+
+Tus proyectos se guardan en el iPad (en la app instalada). Usa
+Archivo > Guardar proyecto (.json) para tener copia de seguridad.
