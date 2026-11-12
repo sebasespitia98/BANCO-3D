@@ -1,6 +1,6 @@
 // Banco 3D · funcionamiento sin conexión
 // Al publicar una versión nueva, cambia el número de VERSION para que los iPad la descarguen.
-const VERSION = 'banco3d-2026-11-12-1';
+const VERSION = 'banco3d-2026-11-12-2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png', './favicon.png'];
 
 self.addEventListener('install', (e) => {
